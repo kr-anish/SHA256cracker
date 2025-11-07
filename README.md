@@ -68,3 +68,8 @@ pip3 install pwntools
 • Encoding errors / unreadable characters — script opens the wordlist with latin-1 to be compatible with rockyou.txt. If your wordlist uses UTF-8, adapt open(..., encoding='latin-1').
 
 • Permission/Path issues — ensure rockyou.txt is readable and in the same directory or update password_file variable to the correct path.
+
+# Acknowledgements
+• pwntools for friendly logging and utilities.
+
+• The rockyou.txt wordlist (commonly used for testing/education).
